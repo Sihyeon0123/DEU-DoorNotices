@@ -9,6 +9,7 @@ import json
 import tkinter as tk
 from tkinter import simpledialog
 
+import sys
 import os
 import time
 class DoorNotices:
@@ -292,6 +293,9 @@ class DoorNotices:
 
         print('\033[96m'+'공지 확인 완료')
         print('\033[0m',end="")
+        
+        # 프로그램 종료
+        sys.exit()
 
 if __name__ == "__main__":
     a = DoorNotices()
