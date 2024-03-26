@@ -1,1 +1,1 @@
-![image](https://github.com/Sihyeon0123/DEU-DoorNotices/assets/129951793/261e06f3-740b-4249-a748-a763aa510ad5)
+![Door 공지](https://github.com/Sihyeon0123/DEU-DoorNotices/assets/129951793/81003646-98e1-4c1e-957a-839e2b01e88d)
