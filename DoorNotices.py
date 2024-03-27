@@ -151,7 +151,7 @@ class DoorNotices:
             if new_notify_count > 0:
                 for i in range(new_notify_count):
                     # 알림 처리로직 추가
-                    print(f"{color}{menu}{reset}: \"{lecture_notice_list[0][-i]}\"")
+                    print(f"{color}{menu}{reset}: \"{lecture_notice_list[0][i]}\"")
                     found = True
                     json_data[semester][lecture][menu] += 1
     
