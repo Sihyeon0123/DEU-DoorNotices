@@ -152,6 +152,7 @@ class DoorNotices:
             if new_notify_count > 10:
                 new_notify_count = 10
                 json_data[semester][lecture][menu] += int(lecture_notice_list[1][0]) - 10
+                print(f"{color}{menu}\033[31m 메뉴에 10개 이상의 새로운 공지가 있어, 최근 10개의 공지를 출력합니다.{reset}")
 
             if new_notify_count > 0:
                 for i in range(new_notify_count):
