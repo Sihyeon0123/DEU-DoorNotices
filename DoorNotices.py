@@ -148,6 +148,11 @@ class DoorNotices:
 
         else:
             new_notify_count = int(lecture_notice_list[1][0]) - json_data[semester][lecture][menu]
+
+            if new_notify_count > 10:
+                new_notify_count = 10
+                json_data[semester][lecture][menu] += int(lecture_notice_list[1][0]) - 10
+
             if new_notify_count > 0:
                 for i in range(new_notify_count):
                     # 알림 처리로직 추가
